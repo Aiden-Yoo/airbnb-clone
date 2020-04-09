@@ -15,7 +15,7 @@ class Command(BaseCommand):
             "--number",
             default=2,
             type=int,
-            help="How many users do you want me to create",
+            help="How many reviews do you want me to create",
         )
 
     def handle(self, *args, **options):
