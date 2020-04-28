@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 black = "*"
+django = "==3.0.5"
 
 [packages]
 django = "==3.0.4"
